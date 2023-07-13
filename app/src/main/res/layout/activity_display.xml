@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DisplaySong"
+    android:background="@drawable/back2">
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/gothic_a1_extrabold"
+        android:background="#1DB954"
+        android:textColor="#FFFFFF"
+        android:text="@string/show_all_songs_with_5_stars"/>
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:background="#1DB954"
+        android:fontFamily="@font/gothic_a1_extrabold"
+        android:text="@string/go_back"
+        android:textColor="#FFFFFF" />
+
+    <ListView
+        android:id="@+id/lvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:background="#1DB954"
+        android:fontFamily="@font/gothic_a1_extrabold"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+</LinearLayout>
